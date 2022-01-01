@@ -16,10 +16,10 @@ namespace hata_yonetimi
             {
                 Console.WriteLine("Hata: " + ex.Message.ToString());
             }
-            // finally
-            // {
-            //     Console.WriteLine("İşlem tamamlandı.");
-            // }
+            finally
+            {
+                Console.WriteLine("İşlem tamamlandı.");
+            }
             try
             {
                 // int a = int.Parse(null); // Hatırlatma: Parse metodu string ifadeleri integer değerlere dönüştürmek için kullanılır!
