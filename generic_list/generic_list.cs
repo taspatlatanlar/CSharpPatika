@@ -89,7 +89,7 @@ namespace generic_list
             Kullanıcılar kullanici1 = new Kullanıcılar();
             kullanici1.Isim = "Özge";
             kullanici1.Soyisim = "Bulut";
-            kullanici1.Yas = 19;
+            kullanici1.Yas = 23;
 
             Kullanıcılar kullanici2 = new Kullanıcılar();
             kullanici2.Isim = "Can";
